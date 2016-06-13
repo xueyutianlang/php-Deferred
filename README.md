@@ -5,18 +5,16 @@
 
 ###使用方式 前参考tests/deferredTest
 ```php
-    $deferred = new Deferred();
-    $function = function ($event) {
-         $params = $event->getParams();
-    };
-    $deferred->done($function);
-    $deferred->resovle();
-
-
-      $deferred = new Deferred();
-      $function = function ($event) {
-          $params = $event->getParams();
-      };
-      $deferred->fail($function);
-      $deferred->reject();
+$deferred = new Deferred();
+$function = function ($event) {
+    $params = $event->getParams();
+};
+$deferred->done($function);
+$deferred->resovle();
+$deferred = new Deferred();
+$function = function ($event) {
+     $params = $event->getParams();
+};
+$deferred->fail($function);
+$deferred->reject();
 ```
