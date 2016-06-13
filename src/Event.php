@@ -6,7 +6,7 @@
  * Time: 下午3:33
  */
 
-namespace Comos\Deferred;
+namespace Snuser\Deferred;
 
 
 class Event

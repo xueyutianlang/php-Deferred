@@ -1,5 +1,5 @@
 {
-    "name": "comos/deferred",
+    "name": "snuser/deferred",
     "authors": [
         {
             "name": "lan jialiang",
@@ -9,7 +9,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Comos\\Deferred\\": "src"
+            "Snuser\\Deferred\\": "src"
         }
     }
 }

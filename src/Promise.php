@@ -6,7 +6,7 @@
  * Time: 下午5:04
  */
 
-namespace Comos\Deferred;
+namespace Snuser\Deferred;
 
 
 class Promise

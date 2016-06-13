@@ -6,7 +6,7 @@
  * Time: 下午4:12
  */
 
-namespace Comos\Deferred;
+namespace Snuser\Deferred;
 
 
 class Pipe {

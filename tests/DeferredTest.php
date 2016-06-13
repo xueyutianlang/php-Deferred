@@ -6,7 +6,7 @@
  * Time: 下午6:30
  */
 
-namespace Comos\Deferred;
+namespace Snuser\Deferred;
 
 
 class DeferredTest extends \PHPUnit_Framework_TestCase
@@ -124,7 +124,7 @@ class DeferredTest extends \PHPUnit_Framework_TestCase
     {
         $deferred = new Deferred();
         $promise = $deferred->promise();
-        $this->assertInstanceOf('Comos\Deferred\Promise', $promise);
+        $this->assertInstanceOf('Snuser\Deferred\Promise', $promise);
     }
 
     function testPromiseResovle()
@@ -177,7 +177,7 @@ class DeferredTest extends \PHPUnit_Framework_TestCase
         $deferred = new Deferred();
         $step = $deferred->pipe(function () {
             });
-        $this->assertInstanceOf('Comos\Deferred\Promise', $step);
+        $this->assertInstanceOf('Snuser\Deferred\Promise', $step);
     }
 
     function testDeferredPipe()

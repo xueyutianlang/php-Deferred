@@ -1,7 +1,7 @@
 <?php
-namespace Comos\Deferred;
+namespace Snuser\Deferred;
 
-use Comos\Deferred\Event;
+use Snuser\Deferred\Event;
 
 /**
  * Created by PhpStorm.
