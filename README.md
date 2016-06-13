@@ -18,3 +18,9 @@ $function = function ($event) {
 $deferred->fail($function);
 $deferred->reject();
 ```
+
+
+###安装方式
+```
+composer require snuser/deferred
+```
