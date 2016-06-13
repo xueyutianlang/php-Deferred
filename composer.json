@@ -1,0 +1,15 @@
+{
+    "name": "comos/deferred",
+    "authors": [
+        {
+            "name": "lan jialiang",
+            "email": "sdlanmao@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Comos\\Deferred\\": "src"
+        }
+    }
+}
