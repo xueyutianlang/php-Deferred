@@ -1,11 +1,14 @@
 {
     "name": "snuser/deferred",
+    "description":"提供php在事务处理流程中的异构解决方案 实现借鉴jquery中deferred promise解决方案",
+    "license": "GPL-3",
     "authors": [
         {
             "name": "lan jialiang",
             "email": "sdlanmao@163.com"
         }
     ],
+
     "require": {},
     "autoload": {
         "psr-4": {
