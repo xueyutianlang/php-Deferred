@@ -11,12 +11,15 @@ $function = function ($event) {
 };
 $deferred->done($function);
 $deferred->resovle();
+
 $deferred = new Deferred();
 $function = function ($event) {
      $params = $event->getParams();
 };
 $deferred->fail($function);
 $deferred->reject();
+
+
 ```
 
 
